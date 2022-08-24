@@ -3,9 +3,9 @@ const cheerio = require('cheerio')
 const axios = require('axios')
 const schedule = require('node-schedule')
 //
-const appid = 'wxd89fa52c69f121ec'
-const secret = 'b3a03d59e54fcf96768cb6c4d7dddecc'
-const touser = 'oUHT15re06jseLuE7DnXh2MNLNvg'
+const appid = 'wxffa040cc997c9651'
+const secret = 'ab1dd158a323caa014a11ab9bc26b6eb'
+const touser = 'oc9tc5tLfNo6y97GvKDdFMq_BAZU'
 const template_id = 'RpCtH9L4olg8T-Fj8Cr9azCtsxuKZWJVhqb-Lx0Y4bo'
 //
 const Local = 'guangxi/nanning'
@@ -302,8 +302,8 @@ schedule.scheduleJob(rule, function () {
 
 // {{birthDayText.DATA}} {{birthDay.DATA}}{{day.DATA}}
 
-// {{enOnData.DATA}}
-
 // {{oneData.DATA}}
 
-// {{weatherTip.DATA}}
+// {{enOnData.DATA}}
+
+// {{recentWatherText.DATA}}
