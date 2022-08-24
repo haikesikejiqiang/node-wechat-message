@@ -6,7 +6,7 @@ const schedule = require('node-schedule')
 const appid = 'wxffa040cc997c9651'
 const secret = 'ab1dd158a323caa014a11ab9bc26b6eb'
 const touser = 'oc9tc5tLfNo6y97GvKDdFMq_BAZU'
-const template_id = 'RpCtH9L4olg8T-Fj8Cr9azCtsxuKZWJVhqb-Lx0Y4bo'
+const template_id = 'AIfU0W-CMOdLOBcC_M40l9yEcrFQWLfYnawuByYZIZ4'
 //
 const Local = 'guangxi/nanning'
 const WeatherUrl = 'https://tianqi.moji.com/weather/china/' + Local
@@ -276,7 +276,6 @@ async function templateMessageSend() {
   const res = await axiosPost(url, params)
   console.log(`NodeWechatMessage: ${date}-执行完毕`, res.data)
 }
-
 // 定时
 const rule = new schedule.RecurrenceRule()
 rule.dayOfWeek = [0, new schedule.Range(1, 6)]
